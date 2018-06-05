@@ -1,9 +1,9 @@
 <scheme name="Vscode-chester" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2018-05-22T19:32:16</property>
+    <property name="created">2018-06-05T00:42:45</property>
     <property name="ide">PhpStorm</property>
-    <property name="ideVersion">2018.1.3.0.0</property>
-    <property name="modified">2018-05-22T19:32:24</property>
+    <property name="ideVersion">2018.1.4.0.0</property>
+    <property name="modified">2018-06-05T00:44:37</property>
     <property name="originalScheme">Vscode-chester</property>
   </metaInfo>
   <colors>
@@ -14,7 +14,7 @@
     <option name="INDENT_GUIDE" value="3b444f" />
     <option name="LINE_NUMBERS_COLOR" value="f8f8f2" />
     <option name="SELECTED_INDENT_GUIDE" value="3b444f" />
-    <option name="SELECTION_BACKGROUND" value="" />
+    <option name="SELECTION_BACKGROUND" value="32424a" />
     <option name="WHITESPACES" value="3b444f" />
   </colors>
   <attributes>
@@ -298,7 +298,6 @@
     <option name="CSS.PROPERTY_VALUE">
       <value>
         <option name="FOREGROUND" value="68e868" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CSS.TAG_NAME">
@@ -505,7 +504,13 @@
         <option name="BACKGROUND" value="2c3643" />
       </value>
     </option>
-    <option name="DEFAULT_METADATA" baseAttributes="TEXT" />
+    <option name="DEFAULT_METADATA">
+      <value>
+        <option name="FOREGROUND" value="16c98d" />
+        <option name="BACKGROUND" value="2c3643" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="DEFAULT_NUMBER">
       <value>
         <option name="FOREGROUND" value="ffc83f" />
@@ -744,7 +749,6 @@
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
         <option name="FOREGROUND" value="16c98d" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="HTML_COMMENT">
@@ -756,14 +760,12 @@
     <option name="HTML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="fa5e5b" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="e3e3ff" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="ff708e" />
       </value>
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
@@ -903,6 +905,27 @@
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="16c98d" />
+      </value>
+    </option>
+    <option name="JSON.BRACES">
+      <value>
+        <option name="FOREGROUND" value="ae81ff" />
+      </value>
+    </option>
+    <option name="JSON.BRACKETS">
+      <value>
+        <option name="FOREGROUND" value="288ad6" />
+      </value>
+    </option>
+    <option name="JSON.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="ff708e" />
+      </value>
+    </option>
+    <option name="JSON.PROPERTY_KEY">
+      <value>
+        <option name="FOREGROUND" value="fa5e5b" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="LABEL">
