@@ -1,10 +1,10 @@
-<scheme name="Vscode-chester" version="142" parent_scheme="Darcula">
+<scheme name="Vscode-chester copy" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2018-06-20T08:53:25</property>
+    <property name="created">2018-08-22T09:54:46</property>
     <property name="ide">PhpStorm</property>
-    <property name="ideVersion">2018.2.0.0</property>
-    <property name="modified">2018-06-20T08:53:28</property>
-    <property name="originalScheme">Vscode-chester</property>
+    <property name="ideVersion">2018.2.1.0.0</property>
+    <property name="modified">2018-08-22T09:54:52</property>
+    <property name="originalScheme">Vscode-chester copy</property>
   </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="ff708e" />
@@ -12,7 +12,7 @@
     <option name="CONSOLE_BACKGROUND_KEY" value="2c3643" />
     <option name="GUTTER_BACKGROUND" value="2c3643" />
     <option name="INDENT_GUIDE" value="3b444f" />
-    <option name="LINE_NUMBERS_COLOR" value="f8f8f2" />
+    <option name="LINE_NUMBERS_COLOR" value="3d4754" />
     <option name="METHOD_SEPARATORS_COLOR" value="" />
     <option name="SELECTED_INDENT_GUIDE" value="3b444f" />
     <option name="SELECTION_BACKGROUND" value="3b4b53" />
@@ -712,8 +712,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="HAML_FILTER" baseAttributes="DEFAULT_LABEL" />
-    <option name="HAML_FILTER_CONTENT" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
     <option name="HAML_ID">
       <value>
         <option name="FOREGROUND" value="fa5e5b" />
@@ -721,8 +719,6 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="HAML_RUBY_CODE" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
-    <option name="HAML_RUBY_START" baseAttributes="DEFAULT_KEYWORD" />
     <option name="HAML_STRING">
       <value>
         <option name="FOREGROUND" value="16c98d" />
@@ -733,14 +729,11 @@
         <option name="FOREGROUND" value="16c98d" />
       </value>
     </option>
-    <option name="HAML_TAG" baseAttributes="TEXT" />
     <option name="HAML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="fa5e5b" />
       </value>
     </option>
-    <option name="HAML_TEXT" baseAttributes="TEXT" />
-    <option name="HAML_XHTML" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="ffc83f" />
@@ -751,6 +744,9 @@
       <value>
         <option name="FOREGROUND" value="16c98d" />
       </value>
+    </option>
+    <option name="HTML_CODE">
+      <value />
     </option>
     <option name="HTML_COMMENT">
       <value>
@@ -927,6 +923,14 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="KOTLIN_LABEL">
+      <value />
+    </option>
     <option name="LABEL">
       <value>
         <option name="FOREGROUND" value="89bde4" />
@@ -944,7 +948,8 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="3a6da0" />
+        <option name="BACKGROUND" value="3b514d" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
@@ -1045,7 +1050,12 @@
         <option name="FOREGROUND" value="16c98d" />
       </value>
     </option>
-    <option name="PHP_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="PHP_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="fa5e5b" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="PHP_DOC_TAG">
       <value>
         <option name="FOREGROUND" value="16c98d" />
@@ -1058,9 +1068,15 @@
       </value>
     </option>
     <option name="PHP_TAG">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="f8f8f0" />
+      </value>
     </option>
-    <option name="PHP_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="PHP_VAR">
+      <value>
+        <option name="FOREGROUND" value="fa5e5b" />
+      </value>
+    </option>
     <option name="PROTOCOL_REFERENCE">
       <value>
         <option name="FOREGROUND" value="ffc83f" />
@@ -1133,6 +1149,11 @@
         <option name="FOREGROUND" value="ffc83f" />
       </value>
     </option>
+    <option name="PY.COMMA">
+      <value>
+        <option name="FOREGROUND" value="fa5e5b" />
+      </value>
+    </option>
     <option name="PY.DECORATOR">
       <value>
         <option name="FOREGROUND" value="288ad6" />
@@ -1144,6 +1165,22 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="PY.DOC_COMMENT_TAG">
+      <value>
+        <option name="FOREGROUND" value="16c98d" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="PY.DOT">
+      <value>
+        <option name="FOREGROUND" value="89bde4" />
+      </value>
+    </option>
+    <option name="PY.FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="288ad6" />
+      </value>
+    </option>
     <option name="PY.FUNC_DEFINITION">
       <value>
         <option name="FOREGROUND" value="288ad6" />
@@ -1151,14 +1188,20 @@
     </option>
     <option name="PY.INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="f8f8f0" />
-        <option name="BACKGROUND" value="f92672" />
+        <option name="FOREGROUND" value="fa5e5b" />
+        <option name="EFFECT_COLOR" value="f92672" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="PY.KEYWORD">
       <value>
         <option name="FOREGROUND" value="ff708e" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="PY.KEYWORD_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="ff708e" />
       </value>
     </option>
     <option name="PY.LINE_COMMENT">
@@ -1177,12 +1220,30 @@
         <option name="FOREGROUND" value="89bde4" />
       </value>
     </option>
+    <option name="PY.PREDEFINED_DEFINITION">
+      <value>
+        <option name="FOREGROUND" value="288ad6" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="PY.PREDEFINED_USAGE">
       <value>
         <option name="FOREGROUND" value="288ad6" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="PY.SELF_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="16c98d" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PY.STRING">
+      <value>
+        <option name="FOREGROUND" value="16c98d" />
+      </value>
+    </option>
+    <option name="PY.STRING.B">
       <value>
         <option name="FOREGROUND" value="16c98d" />
       </value>
@@ -1598,7 +1659,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="f8f8f2" />
+        <option name="FOREGROUND" value="fa5e5b" />
         <option name="BACKGROUND" value="2c3643" />
       </value>
     </option>
